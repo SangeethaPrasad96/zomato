@@ -1,0 +1,619 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+body{
+    width: 100vw;
+    height: 100wh;
+    background-color: rgb(252,252,252);
+}
+/**header**/
+header{
+    background-image: url(footerimage1.jpg);
+    background-position: center;
+    background-repeat: none;
+    background-size: cover;
+    width:100%;
+    
+    min-height: 560px;
+}
+.nav-bar{
+    display: flex;
+    padding: 20px 0px;
+   justify-content: center;
+    align-items: center;
+  
+}
+.nav-bar a{
+    color: #ffffff;
+    text-decoration: none;
+    
+}
+.logo-container {
+    font-size: 14px;
+    width: 40%;
+    
+}
+    
+    
+.nav-lists a {
+    font-size: 18px;
+   margin-right: 30px;
+   font-weight: normal;
+   
+}
+.header-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    
+}
+.description{
+    font-size: 36px;
+    color: #ffffff;
+    text-align: center;
+    margin-top: 15px;
+}
+  .search-bar{
+    background:rgb(255,255,255);
+	border-radius: 0.5rem;
+    height: 2rem;
+	width: 50%;
+	padding: 7px;
+	display: flex;
+	align-items: center;
+    margin-left: 350px;
+    margin-top: 25px;
+    
+	gap: 10px;
+    border: 1px solid rgb(232,232,232);
+  }  
+  .map-icon{
+    margin-top: -4px;
+    
+  }
+  .search-location{
+    border: none;
+	padding-top: 4px;
+	padding-bottom: 4px;
+   
+	border-right: 2px solid #C0C0C0;
+	color: gray;
+	font-size: 15px;
+    
+
+  }
+   .search-dishes{
+    border: none;
+    color: #828282
+    padding:1px 2px;
+    width: 100%;
+    outline:none;
+   
+   }
+   /**options that zomato offers**/
+   .zomato-offers{
+    margin left:150px;
+    margin-top:40px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 15px;
+	justify-content: center;
+    align-items: center;
+   
+     }
+
+     .offer-option{
+        border-radius: 25px; 
+       
+        border: 1px solid rgb(239, 233, 233);
+
+     }
+
+
+   .offer-option img{
+    width:500px ;
+	height: 150px;
+	object-fit: cover;
+	object-position: center;
+    border-radius: 25px 25px 0px 0px;
+
+   }
+   .offer-option:hover{
+    transition: all 0.2s ease;
+	transform: scale(1.01);
+	border: 1px solid grey;
+	cursor: pointer;
+	box-shadow: 0 0 15px 5px #A0A0A0;
+   }
+   .offer-option h2{
+    font-size: 20px;
+	font-weight: 500;
+     padding-top: 10px;
+     padding-left: 20px;
+     letter-spacing: 1px;
+   }
+   .offer-option p{
+    font-size: 16px;
+	font-weight: 400;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+   }
+
+    
+
+/**collection section**/
+.collections p{
+    font-size: 36px;
+
+    
+    letter-spacing: 1px;
+}
+.collections {
+    margin-left: 220px ;
+    margin-top: 80px;
+   
+}
+.collections-subheading{
+    font-size: 16px;
+	display: flex;
+    
+	
+	align-items: center;
+	gap: 30px;
+    font-weight: none;
+	flex-wrap: wrap;
+    padding-top: 10px;
+    letter-spacing: 1px;
+    color: #363636;
+    
+}
+#span{
+    color: rgb(232, 33, 33);
+	font-size: 14px;
+    letter-spacing: 1.5px;
+	cursor: pointer;
+    
+    
+}
+    
+
+#span:hover{
+	
+        
+        color: rgb(199, 32, 6);
+	
+}
+   /* collection content place */
+   .container{
+    position: relative;
+    color: white;
+    padding-right: 20px;
+    width: 250px;
+    height: 300px;
+    
+    }
+    .container1{
+        width: 250px;
+        height: 300px;
+    }
+   .content{
+   letter-spacing: 1px;
+    background: rgba(0, 0, 0, 0.5);  
+    line-height: 1.4;
+}
+.container .content {
+    position:absolute; 
+    bottom: 5px; 
+   
+    
+    color:#f1f1f1; 
+    width: 90%;
+    padding-left: 10px;
+}
+
+.container1{
+    position: relative;
+    color: white;
+      
+   }
+   .content1{
+   position: absolute;
+   bottom: 8px;
+   letter-spacing: 1px;
+   line-height: 1.4;
+   background: rgba(0, 0, 0, 0.5);
+}
+.container1 .content1 {
+    position: absolute;
+    bottom:7px; 
+    
+    
+    color: #f1f1f1; 
+    width: 90%;
+    
+}
+
+.collections-down img{
+    display:flex;
+    width: 100%;
+    padding-top: 10px;
+    border-radius: 20px ;
+    }
+.collections-down{
+    display: flex;
+}
+
+/**popular localities portion**/
+
+.heading{
+    padding-top: 100px;
+    margin-bottom: 50px;
+    font-size: 36px;
+    color: #363636;
+    letter-spacing:2px;
+   
+}
+span{
+    font-weight: bold;
+}
+
+.box{
+    border-color: 1px solid black;
+    
+    margin-top: 10px;
+    padding: 12px 15px;
+    border-radius: 0.8rem;
+    margin-right: 2rem;
+    border: 1px solid rgb(232, 232, 232);
+    margin-bottom: 0.5rem;
+     width:26%;
+     height: 60px;
+     
+     
+     
+    }
+.box:hover{
+    transition: all 0.2s ease;
+	transform: scale(1.01);
+	cursor: pointer;
+	box-shadow: rgba(28, 28, 28, 0.08) 0px 1.42623px 2.85246px;
+}
+.box p{
+    font-size:20px;
+   margin: 10px 0px 5px;
+   color: #1c1c1c;
+   
+
+}
+
+   .box a{
+    font-size:16px;
+    color: #363636;
+    
+  }
+    .localities-box{
+        display: flex;
+        flex-wrap:wrap ;
+        
+        justify-self:flex-start;
+        
+       
+ }
+
+    
+/**container for getting app**/
+
+    .container__get_the_App{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #FFFBF7;
+        width: 100%;
+        margin: 3rem auto;
+    }
+    
+    .semi_container{
+        /* width: 100%; */
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5rem;
+        justify-content: center;
+        align-items: center;
+        background:#FFFBF7;
+     }
+    
+    .semi_container__left{
+        flex: 1.5;
+    }
+    
+    .semi_container__left img{
+        width: 100%;
+        height: 450px;
+        object-fit: cover;
+        object-position: center;
+    }
+    
+    .semi_container__right{
+        flex: 3;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        margin-left: 10px;
+        margin-top: 1px;
+    }
+    .semi_container__right h1{
+        font-size: 3rem;
+        font-weight: 500;
+    }
+    
+    .semi_container__right p{
+        font-size: 1rem;
+        letter-spacing: 2px;
+        font-weight: 500;
+        color:#363636;
+        line-height:1.8;
+        
+        
+    }
+    
+    .semi_container__right .radio_button__container{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        
+    }
+    
+    .semi_container__right .radio_button__container div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        
+    }
+    
+    .semi_container__right .radio_button__container div input{
+        height: 15px;
+        width: 15px;
+        accent-color: rgb(239,79,95);  
+        
+    }
+    .input__container{
+        display: flex;
+        gap: 0.6rem;
+        flex-wrap: wrap;
+   
+    }
+    
+    .input__container button, .input__container input{
+        padding: 10px 12px;
+    }
+    
+    .input__container input{
+        flex: auto;
+        border: 0.5px solid gray;
+        border-radius: 10px;
+        height: 30px;
+        outline: none;
+    
+        
+        
+    }
+    
+    .input__container button{
+        border: none;
+        border-radius: 5px;
+        color: white;
+        background: rgb(239,79,95); 
+        cursor: pointer;
+    } 
+    .input__container button:hover{
+        background: red;
+    }
+    
+    .download_app__container{
+        display: flex;
+        flex-direction: column;
+        gap: 0.7rem;
+    }
+    
+    .download_app__container h5{
+        font-weight: 450;
+        font-size: 1rem;
+        color: #9c9c9c;;
+        margin-top: 10px;
+        letter-spacing: 1px;
+    }
+    
+    .download_app__container div{
+        display: flex;
+        gap: 1rem;
+    }
+    
+    .download_app__container div img{
+        cursor: pointer;
+        width: 20%;
+
+    }   
+
+    /* This is for Explore places section */
+
+.explore_places__container{
+	width: 100%;
+	margin: 3rem auto;
+}
+
+.explore_places__container .sub_container{
+	width: 90%;
+    /* margin-right:50px; */
+    
+}
+
+.explore_places__container .sub_container div h1{
+	font-weight:200;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+
+
+.drop_down__container{
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+   
+	
+    
+
+}
+
+.drop_down_menu{
+	height: 60px;
+	width: 1100px;
+	border-radius: 10px;
+	padding: 15px;
+    border: 0.1px solid gray;
+    outline: none;
+    margin-top: 5px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #1c1c1c;
+}
+
+/* This is for the footer section */
+
+.footer__container{
+	width: 100%;
+	margin: 4rem auto;
+    background-color: #faf3f372;
+}
+
+.footer_section1{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	margin: auto;
+	width: 70;
+}
+
+.footer_section1 img{
+	width: 150px;
+}
+
+.section1__button_container button{
+	padding: 7px;
+    /* width: 100px; */
+    /* height: 50px; */
+	border: 1px solid gray;
+	border-radius: 8px;
+	cursor: pointer;
+
+}
+.section1__button_container button:nth-child(2){
+	margin-left: 7px;
+}
+
+.navigation_container{
+	display: grid;
+	grid-template-columns : repeat(5, 1fr);
+	margin: auto;
+	gap: 1rem;
+	padding: 3rem 0;
+}
+
+.link_container{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+}
+
+.link_container h5{
+	font-size: 16px;
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+.link_container_anchors a{
+	display: flex;
+	flex-direction: column;
+	text-decoration: none;
+	text-transform: none;
+	color: gray;
+	gap: 5px;
+	font-weight: 400;
+	margin-bottom: 4px;
+}
+
+.link_container_anchors a:hover{
+	color: black;
+}
+
+.link_container h5[id=enterprises]{
+	margin-top: 10px;
+	letter-spacing: 1px;
+}
+
+.social_media_logos{
+	margin: 18px 30px;	
+}
+
+.social_media_logos img{
+	width: 80%;
+    margin-left: -28px;
+	cursor: pointer;
+}
+
+.social_media_logos img[id=img2]{
+	margin-top: 5px;
+}
+
+.social_media_icon_buttons button{
+	background: black;
+	border: none;
+	border-radius: 50%;
+	height: 22px;
+	width: 22px;
+	cursor: pointer;
+	color: white;
+}
+
+.social_media_icon_buttons button i{
+	display: flex;
+	font-size: 13px;
+	justify-content: center;
+	align-items: center;
+}
+
+.disclaimer{
+	font-size: 13px;
+    letter-spacing: 1px;
+    color: gray;
+    margin-top: auto;
+	border-top: 1px solid #C0C0C0;
+	padding-top: 20px;
+}
+
+
+ 
+
+ 
+
+
+ 
+
+
+
+ 
+   
+
+   
+    
+
